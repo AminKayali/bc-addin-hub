@@ -1,0 +1,16 @@
+{
+  "name": "SalesChart",
+  "title": "Bar Chart (SVG)",
+  "summary": "Dependency-free bar chart fed with JSON from AL, with click-to-drill-down. Example: customer sales of the last 12 months.",
+  "category": "Visualization",
+  "tags": ["chart", "kpi", "factbox", "customer", "json"],
+  "authors": ["bc-addin-hub"],
+  "license": "MIT",
+  "minBcVersion": "26.0",
+  "target": "Cloud",
+  "externalDependencies": [],
+  "interface": {
+    "procedures": ["Render(DataJson: Text)"],
+    "events": ["ControlReady()", "BarClicked(Key: Text)"]
+  }
+}

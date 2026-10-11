@@ -1,0 +1,24 @@
+{
+  "id": "c3111171-97f2-437d-b94d-99c47ff5e641",
+  "name": "BC AddIn Hub - Sales Chart",
+  "publisher": "BC AddIn Hub Community",
+  "version": "1.0.0.0",
+  "brief": "Monthly sales bar chart for customers, without external libraries.",
+  "description": "Dependency-free SVG bar chart control add-in. The example shows the sales of the last 12 months in a FactBox on the Customer Card; clicking a bar opens the ledger entries of that month.",
+  "url": "https://github.com/bc-addin-hub/bc-addin-hub",
+  "dependencies": [],
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "runtime": "15.0",
+  "idRanges": [
+    {
+      "from": 50120,
+      "to": 50129
+    }
+  ],
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

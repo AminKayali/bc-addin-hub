@@ -1,0 +1,71 @@
+html, body, #controlAddIn {
+    height: 100%;
+    margin: 0;
+}
+
+.sc-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 4px 2px;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #323130;
+}
+
+.sc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+
+.sc-title { color: #605e5c; }
+.sc-total { font-size: 16px; font-weight: 600; }
+
+.sc-chart {
+    flex: 1;
+    min-height: 120px;
+}
+
+.sc-bar {
+    fill: #0078d4;
+    cursor: pointer;
+}
+
+.sc-bar:hover,
+.sc-bar:focus { fill: #005a9e; outline: none; }
+
+.sc-neg { fill: #d13438; }
+.sc-neg:hover,
+.sc-neg:focus { fill: #a4262c; }
+
+.sc-axis { stroke: #8a8886; stroke-width: 1; }
+.sc-grid { stroke: #edebe9; stroke-width: 1; }
+
+.sc-xlabel,
+.sc-ylabel {
+    font-size: 10px;
+    fill: #605e5c;
+}
+
+.sc-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #a19f9d;
+}
+
+.sc-tooltip {
+    position: absolute;
+    visibility: hidden;
+    padding: 4px 8px;
+    background: #323130;
+    color: #fff;
+    border-radius: 2px;
+    white-space: nowrap;
+    pointer-events: none;
+}

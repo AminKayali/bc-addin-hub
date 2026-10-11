@@ -1,0 +1,16 @@
+{
+  "name": "SignaturePad",
+  "title": "Signature Pad",
+  "summary": "Capture a handwritten signature (mouse, pen, touch) and return it to AL as a Base64 PNG. Example: sign a posted sales shipment.",
+  "category": "Input",
+  "tags": ["signature", "touch", "image", "shipment"],
+  "authors": ["bc-addin-hub"],
+  "license": "MIT",
+  "minBcVersion": "26.0",
+  "target": "Cloud",
+  "externalDependencies": [],
+  "interface": {
+    "procedures": ["Clear()", "SetLabels(ClearCaption: Text; SaveCaption: Text; HintCaption: Text)"],
+    "events": ["ControlReady()", "SignatureSaved(Base64Png: Text)", "SignatureEmpty()"]
+  }
+}

@@ -1,0 +1,30 @@
+name: Bug report
+description: Something does not work in one of the add-ins
+labels: ["bug"]
+body:
+  - type: input
+    id: addin
+    attributes:
+      label: Add-in
+      placeholder: e.g. TrafficLight
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Business Central version
+      placeholder: e.g. 27.1 Online / On-premises
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client / browser
+      placeholder: e.g. Edge 130, BC mobile app on iPad
+  - type: textarea
+    id: description
+    attributes:
+      label: What happens and what did you expect?
+      description: Include errors from the browser console (F12, iframe context) if possible.
+    validations:
+      required: true

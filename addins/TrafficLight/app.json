@@ -1,0 +1,24 @@
+{
+  "id": "7d8173a7-977a-40cb-89fd-298874e8824c",
+  "name": "BC AddIn Hub - Traffic Light",
+  "publisher": "BC AddIn Hub Community",
+  "version": "1.0.0.0",
+  "brief": "Delivery status traffic light for sales orders.",
+  "description": "Shows a red/yellow/green delivery status of the selected sales order in a FactBox on the Sales Order List.",
+  "url": "https://github.com/bc-addin-hub/bc-addin-hub",
+  "dependencies": [],
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "runtime": "15.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50109
+    }
+  ],
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

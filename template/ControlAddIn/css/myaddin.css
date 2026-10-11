@@ -1,0 +1,7 @@
+.ma-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}

@@ -1,0 +1,32 @@
+name: Add-in idea
+description: Suggest a new control add-in for the collection
+labels: ["idea"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What should the add-in do?
+      description: Describe the control and where it would be used in Business Central.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example usage
+      description: Which page, which data? (e.g. FactBox on the Item Card showing …)
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Visualization
+        - Input
+        - Status
+        - Integration
+        - Utility
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I would like to build it myself

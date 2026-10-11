@@ -1,0 +1,15 @@
+# AL build output and symbols
+*.app
+.alpackages/
+.snapshots/
+.output/
+rad.json
+*.g.xlf
+
+# Local VS Code / launch settings (contain server URLs)
+.vscode/launch.json
+.vscode/settings.json
+
+# OS
+.DS_Store
+Thumbs.db

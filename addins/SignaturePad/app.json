@@ -1,0 +1,24 @@
+{
+  "id": "6d82c065-5cf5-40a9-bb46-73ecbe351ef5",
+  "name": "BC AddIn Hub - Signature Pad",
+  "publisher": "BC AddIn Hub Community",
+  "version": "1.0.0.0",
+  "brief": "Capture a handwritten signature on posted sales shipments.",
+  "description": "Signature pad control add-in (mouse, pen, touch). The example stores the signature as an image on the Posted Sales Shipment.",
+  "url": "https://github.com/bc-addin-hub/bc-addin-hub",
+  "dependencies": [],
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "runtime": "15.0",
+  "idRanges": [
+    {
+      "from": 50110,
+      "to": 50119
+    }
+  ],
+  "target": "Cloud",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

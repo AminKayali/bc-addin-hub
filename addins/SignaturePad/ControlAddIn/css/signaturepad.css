@@ -1,0 +1,75 @@
+html, body, #controlAddIn {
+    height: 100%;
+    margin: 0;
+}
+
+.sp-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 8px;
+    box-sizing: border-box;
+    padding: 4px;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.sp-area {
+    position: relative;
+    flex: 1;
+    min-height: 150px;
+    border: 1px solid #c8c6c4;
+    border-radius: 4px;
+    background: #fff;
+}
+
+#sp-canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    touch-action: none; /* prevents scrolling while signing on touch devices */
+    cursor: crosshair;
+}
+
+.sp-hint {
+    position: absolute;
+    left: 16px;
+    bottom: 26px;
+    color: #a19f9d;
+    pointer-events: none;
+}
+
+.sp-line {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 22px;
+    border-bottom: 1px dashed #c8c6c4;
+    pointer-events: none;
+}
+
+.sp-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.sp-btn {
+    font: inherit;
+    padding: 5px 16px;
+    border: 1px solid #8a8886;
+    border-radius: 2px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.sp-btn:hover { background: #f3f2f1; }
+
+.sp-primary {
+    background: #0078d4;
+    border-color: #0078d4;
+    color: #fff;
+}
+
+.sp-primary:hover { background: #106ebe; }

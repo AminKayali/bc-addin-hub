@@ -1,0 +1,16 @@
+{
+  "name": "MyAddIn",
+  "title": "My Add-in",
+  "summary": "One sentence: what it does and what the example shows.",
+  "category": "Visualization | Input | Status | Integration | Utility",
+  "tags": ["tag1", "tag2"],
+  "authors": ["your-github-handle"],
+  "license": "MIT",
+  "minBcVersion": "26.0",
+  "target": "Cloud",
+  "externalDependencies": [],
+  "interface": {
+    "procedures": ["DoSomething(Value: Text)"],
+    "events": ["ControlReady()", "SomethingHappened(Value: Text)"]
+  }
+}

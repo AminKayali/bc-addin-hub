@@ -1,0 +1,33 @@
+.tl-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Segoe UI", "Segoe WP", Segoe, device-segoe, Tahoma, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.tl-box {
+    display: flex;
+    gap: 6px;
+    padding: 6px 8px;
+    background: #333;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.tl-box:focus-visible {
+    outline: 2px solid #0078d4;
+    outline-offset: 2px;
+}
+
+.tl-lamp {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #555;
+    opacity: 0.35;
+}
+
+#tl-red.on    { background: #d13438; opacity: 1; }
+#tl-yellow.on { background: #ffb900; opacity: 1; }
+#tl-green.on  { background: #107c10; opacity: 1; }

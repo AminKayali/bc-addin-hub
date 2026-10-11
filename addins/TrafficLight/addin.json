@@ -1,0 +1,16 @@
+{
+  "name": "TrafficLight",
+  "title": "Traffic Light",
+  "summary": "Red/yellow/green status light with click event. Example: delivery status of sales orders.",
+  "category": "Status",
+  "tags": ["status", "factbox", "sales"],
+  "authors": ["bc-addin-hub"],
+  "license": "MIT",
+  "minBcVersion": "26.0",
+  "target": "Cloud",
+  "externalDependencies": [],
+  "interface": {
+    "procedures": ["SetStatus(Status: Text; Caption: Text)"],
+    "events": ["ControlReady()", "LightClicked(Status: Text)"]
+  }
+}

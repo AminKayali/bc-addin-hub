@@ -1,0 +1,91 @@
+[
+  {
+    "folder": "SalesChart",
+    "name": "SalesChart",
+    "title": "Bar Chart (SVG)",
+    "summary": "Dependency-free bar chart fed with JSON from AL, with click-to-drill-down. Example: customer sales of the last 12 months.",
+    "category": "Visualization",
+    "tags": [
+      "chart",
+      "kpi",
+      "factbox",
+      "customer",
+      "json"
+    ],
+    "authors": [
+      "bc-addin-hub"
+    ],
+    "license": "MIT",
+    "minBcVersion": "26.0",
+    "target": "Cloud",
+    "externalDependencies": [],
+    "interface": {
+      "procedures": [
+        "Render(DataJson: Text)"
+      ],
+      "events": [
+        "ControlReady()",
+        "BarClicked(Key: Text)"
+      ]
+    }
+  },
+  {
+    "folder": "SignaturePad",
+    "name": "SignaturePad",
+    "title": "Signature Pad",
+    "summary": "Capture a handwritten signature (mouse, pen, touch) and return it to AL as a Base64 PNG. Example: sign a posted sales shipment.",
+    "category": "Input",
+    "tags": [
+      "signature",
+      "touch",
+      "image",
+      "shipment"
+    ],
+    "authors": [
+      "bc-addin-hub"
+    ],
+    "license": "MIT",
+    "minBcVersion": "26.0",
+    "target": "Cloud",
+    "externalDependencies": [],
+    "interface": {
+      "procedures": [
+        "Clear()",
+        "SetLabels(ClearCaption: Text; SaveCaption: Text; HintCaption: Text)"
+      ],
+      "events": [
+        "ControlReady()",
+        "SignatureSaved(Base64Png: Text)",
+        "SignatureEmpty()"
+      ]
+    }
+  },
+  {
+    "folder": "TrafficLight",
+    "name": "TrafficLight",
+    "title": "Traffic Light",
+    "summary": "Red/yellow/green status light with click event. Example: delivery status of sales orders.",
+    "category": "Status",
+    "tags": [
+      "status",
+      "factbox",
+      "sales"
+    ],
+    "authors": [
+      "bc-addin-hub"
+    ],
+    "license": "MIT",
+    "minBcVersion": "26.0",
+    "target": "Cloud",
+    "externalDependencies": [],
+    "interface": {
+      "procedures": [
+        "SetStatus(Status: Text; Caption: Text)"
+      ],
+      "events": [
+        "ControlReady()",
+        "LightClicked(Status: Text)"
+      ]
+    }
+  }
+]
